@@ -86,5 +86,5 @@ Contact Number: 0751459135</li>
 <h2 style="color:white; margin:0;">Mock Interview</h2>
 </div>
 <p style="color:#333333; margin-bottom:30px;">
-[Watch my mock interview](https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/view?usp=drive_link)
+<a href=https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/view?usp=drive_link/view?usp=sharing" target="_blank" style="color:#FFA500; text-decoration:none; font-weight:bold;">Have a watch!</a>
 </p>
