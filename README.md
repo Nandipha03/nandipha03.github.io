@@ -80,3 +80,11 @@ Company: Methodist Church of GoodHope<br>
 Email: mthumrubata@gmail.com<br>
 Contact Number: 0751459135</li>
 </ul>
+
+<!-- Mock Interview -->
+<div style="background-color:#FFA07A; padding:8px; border-radius:5px; margin-bottom:10px;">
+<h2 style="color:white; margin:0;">Mock Interview</h2>
+</div>
+<p style="color:#333333; margin-bottom:30px;">
+[Watch my mock interview](https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/view?usp=drive_link)
+</p>
