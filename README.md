@@ -80,4 +80,3 @@ Company: Methodist Church of GoodHope<br>
 Email: mthumrubata@gmail.com<br>
 Contact Number: 0751459135</li>
 </ul>
-</ul>
