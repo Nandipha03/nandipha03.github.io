@@ -1,203 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Nandipha Galada CV</title>
-
 <style>
-    body {
-        margin: 0;
-        font-family: "Times New Roman", serif;
-        background: #f3ede6;
-        color: #2b2b2b;
-    }
+    body{
+        margin:0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background:#f6f1ec;
+        color:#2b2b2b;
+    }.header{
+    background: linear-gradient(135deg,#5a3a2b,#8b5e3c,#3e2a1f);
+    color:white;
+    text-align:center;
+    padding:60px 20px 40px;
+    position:relative;
+}
 
-    /* ===== HEADER ===== */
-    .header {
-        text-align: center;
-        padding: 60px 20px 30px 20px;
-    }
+.name{
+    font-size:48px;
+    letter-spacing:6px;
+    font-weight:600;
+    text-transform:uppercase;
+}
 
-    .leaf {
-        font-size: 18px;
-        color: #7a5c3e;
-        margin-bottom: 10px;
-    }
+.contact{
+    margin-top:15px;
+    font-size:14px;
+    opacity:0.9;
+}
 
-    .name {
-        font-size: 54px;
-        letter-spacing: 3px;
-        color: #7a5c3e;
-        margin: 0;
-        font-weight: normal;
-    }
+.container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:30px;
+    padding:40px;
+    max-width:1100px;
+    margin:auto;
+}
 
-    .underline {
-        width: 140px;
-        height: 3px;
-        background: #d6b48a;
-        margin: 12px auto;
-    }
+h2{
+    color:#6b3f2a;
+    border-bottom:1px solid #d8c3b6;
+    padding-bottom:5px;
+    margin-top:0;
+}
 
-    .contact {
-        font-size: 14px;
-        margin-top: 10px;
-        line-height: 1.8;
-    }
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom:20px;
+}
 
-    /* ===== CONTENT ===== */
-    .container {
-        max-width: 850px;
-        margin: auto;
-        padding: 20px 25px 60px 25px;
-    }
+ul{
+    padding-left:18px;
+}
 
-    .card {
-        background: #fffaf5;
-        padding: 22px;
-        border-radius: 10px;
-        box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-        margin-bottom: 20px;
-    }
+.tag{
+    display:inline-block;
+    background:#8b5e3c;
+    color:white;
+    padding:4px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin:3px 3px 0 0;
+}
 
-    h2 {
-        color: #7a5c3e;
-        font-size: 18px;
-        border-bottom: 1px solid #e0d2c2;
-        padding-bottom: 6px;
-        margin-bottom: 12px;
-        letter-spacing: 1px;
-    }
+.video{
+    width:100%;
+    height:200px;
+    border-radius:10px;
+    background:#000;
+}
 
-    p, li {
-        font-size: 14.5px;
-        line-height: 1.6;
-    }
+.small{
+    font-size:13px;
+    opacity:0.8;
+}
 
-    ul {
-        padding-left: 18px;
-    }
-
-    /* ===== BUTTON STYLE ===== */
-    .btn {
-        display: inline-block;
-        background-color: #7a5c3e;
-        color: white;
-        padding: 12px 18px;
-        text-decoration: none;
-        border-radius: 6px;
-        font-size: 14px;
-        margin-top: 10px;
-        transition: 0.3s ease;
-    }
-
-    .btn:hover {
-        background-color: #5e452f;
-        transform: translateY(-2px);
-    }
+a{
+    color:#8b5e3c;
+    text-decoration:none;
+}
 
 </style>
 </head>
-
-<body>
-
-<!-- HEADER -->
-<div class="header">
-
-    <div class="leaf">🍃</div>
-
-    <h1 class="name">NANDIPHA GALADA</h1>
-
-    <div class="underline"></div>
-
+<body><div class="header">
+    <div class="name">NANDIPHA GALADA</div>
     <div class="contact">
-        📞 071 088 7644<br>
-        ✉️ 221225366@mycput.ac.za<br>
-        💻 GitHub | 🔗 LinkedIn
+        📞 071 088 7644 | ✉️ 221225366@mycput.ac.za | 💻 GitHub | 🔗 LinkedIn
     </div>
-</div>
-
-<!-- CONTENT -->
-<div class="container">
-
+</div><div class="container"><!-- LEFT SIDE -->
+<div>
     <div class="card">
-        <h2>🪶 Career Objective</h2>
-        <p>
-            Motivated IT student with strong problem-solving, communication, and teamwork skills,
-            supported by customer service experience. I am reliable, organized, and proactive with
-            a growing focus on web design and development.
-        </p>
+        <h2>Career Objective</h2>
+        <p>Motivated IT student with strong problem-solving, communication, and teamwork skills. Seeking opportunities in web development and design while growing professionally.</p>
     </div>
 
     <div class="card">
-        <h2>🎓 Education</h2>
-
-        <p><b>National Senior Certificate</b><br>
-        Focus College, Wynberg, Cape Town<br>
-        2015 – 2020</p>
-
-        <p><b>Diploma in ICT: Applications Development</b><br>
-        Cape Peninsula University of Technology (CPUT)<br>
-        2021 – Present (3rd Year)</p>
+        <h2>Education</h2>
+        <p><b>Diploma in ICT: Applications Development</b><br/>CPUT (2021 – Present)</p>
+        <p><b>National Senior Certificate</b><br/>Focus College (2015 – 2020)</p>
     </div>
 
     <div class="card">
-        <h2>💼 Experience</h2>
-
-        <p><b>Customer Service Agent – Teleperformance</b><br>
-        Dec 2025 – Jan 2026</p>
+        <h2>Experience</h2>
+        <p><b>Customer Service Agent</b> – Teleperformance</p>
+        <p class="small">Dec 2025 – Jan 2026</p>
         <ul>
-            <li>Assisted customers via chat, email, and phone</li>
+            <li>Assisted customers via chat, email, and calls</li>
             <li>Maintained professional communication</li>
         </ul>
 
-        <p><b>UniResApp Project – CPUT</b><br>
-        Jan 2025 – Nov 2025</p>
+        <p><b>UniResApp Project</b> – CPUT</p>
+        <p class="small">Jan 2025 – Nov 2025</p>
         <ul>
-            <li>Built a web-based residence application system</li>
-            <li>Worked on coding, testing, and improvements</li>
-            <li>Strengthened teamwork and problem-solving skills</li>
+            <li>Developed web-based residence system</li>
+            <li>Improved UI/UX and functionality</li>
         </ul>
     </div>
-
-    <div class="card">
-        <h2>🧠 Skills</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Web Design</li>
-            <li>Business Analysis</li>
-             <li>Agile Methodologies</li>
-            <li>Communication</li>
-            <li>Leadership & Teamwork</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>📌 References</h2>
-
-        <p><b>Nonkululeko Biyana</b><br>
-        Teleperformance<br>
-        066 204 9632</p>
-
-        <p><b>Mthuthuzeli Mrubata</b><br>
-        Methodist Church of Good Hope<br>
-        075 145 9135</p>
-    </div>
-
-    <!-- MOCK VIDEO BUTTON (INTEGRATED PROPERLY) -->
-    <div class="card">
-        <h2>🎥 Mock Interview</h2>
-
-        <p>Click below to view my mock interview presentation.</p>
-
-        <a class="btn"
-           href="https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/view?usp=drive_link"
-           target="_blank">
-           ▶ View Mock Interview
-        </a>
-    </div>
-
 </div>
 
-</body>
+<!-- RIGHT SIDE -->
+<div>
+    <div class="card">
+        <h2>Skills</h2>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Web Design</span>
+        <span class="tag">Business Analysis</span>
+        <span class="tag">Teamwork</span>
+    </div>
+
+    <div class="card">
+        <h2>References</h2>
+        <p><b>Nonkululeko Biyana</b><br/>Teleperformance<br/>066 204 9632</p>
+        <p><b>Mthuthuzeli Mrubata</b><br/>Methodist Church of Good Hope<br/>075 145 9135</p>
+    </div>
+
+    <div class="card">
+        <h2>Mock Interview</h2>
+        <iframe class="video" src="https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/preview" allow="autoplay"></iframe>
+    </div>
+</div>
+
+</div></body>
 </html>
