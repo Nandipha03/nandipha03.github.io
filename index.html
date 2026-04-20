@@ -1,125 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nandipha Galada | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nandipha Galada | CV</title>
 
 <style>
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f6f1ea;
-        color: #2f2b28;
-        line-height: 1.7;
-    }
 
-    .container {
-        max-width: 850px;
-        margin: auto;
-        padding: 50px 20px;
-    }
+/* =======================
+   BASE STYLING
+======================= */
 
-    header {
-        text-align: center;
-        padding: 70px 20px 50px;
-        background-color: #efe7dd;
-        border-radius: 14px;
-        margin-bottom: 50px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f1ea;
+    color: #2f2b28;
+    line-height: 1.7;
+}
 
-        opacity: 0;
-        transform: translateY(20px);
-        animation: fadeIn 1s ease forwards;
-    }
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding: 40px 20px;
+}
 
-    h1 {
-        font-size: 50px;
-        letter-spacing: 3px;
-        margin: 0;
-        color: #3b3530;
-    }
+/* =======================
+   HEADER
+======================= */
 
-    .contact {
-        margin-top: 12px;
-        font-size: 14px;
-        color: #6e6a64;
-    }
+h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #3b3530;
+    text-align: center;
+}
 
-    h2 {
-        font-size: 18px;
-        color: #8b6f47;
-        border-bottom: 1px solid #d6cfc7;
-        padding-bottom: 6px;
-        margin-top: 40px;
-        letter-spacing: 1px;
-    }
+.tagline {
+    text-align: center;
+    color: #6e6a64;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
 
-    .section {
-        margin-bottom: 30px;
+.contact {
+    text-align: center;
+    color: #6e6a64;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
 
-        opacity: 0;
-        transform: translateY(20px);
-        animation: fadeIn 1s ease forwards;
-    }
+.contact a {
+    color: #8b6f47;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
-    /* stagger animation */
-    .section:nth-of-type(1) { animation-delay: 0.2s; }
-    .section:nth-of-type(2) { animation-delay: 0.4s; }
-    .section:nth-of-type(3) { animation-delay: 0.6s; }
-    .section:nth-of-type(4) { animation-delay: 0.8s; }
-    .section:nth-of-type(5) { animation-delay: 1s; }
-    .section:nth-of-type(6) { animation-delay: 1.2s; }
-    .section:nth-of-type(7) { animation-delay: 1.4s; }
+.contact a:hover {
+    color: #6e5638;
+}
 
-    .item {
-        margin-bottom: 18px;
-    }
+/* =======================
+   NAVIGATION
+======================= */
 
-    .title {
-        font-weight: bold;
-        color: #3b3530;
-    }
+.nav {
+    text-align: center;
+    margin: 20px 0 40px;
+}
 
-    .sub {
-        color: #6e6a64;
-        font-size: 14px;
-    }
+.nav-btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: #8b6f47;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
 
-    ul {
-        padding-left: 18px;
-    }
+.nav-btn:hover {
+    background-color: #6e5638;
+    transform: translateY(-2px);
+}
 
-    .button {
-        display: inline-block;
-        margin-top: 18px;
-        padding: 12px 20px;
-        background-color: #8b6f47;
-        color: white;
-        text-decoration: none;
-        border-radius: 8px;
-        transition: 0.3s ease;
-        font-size: 14px;
-    }
+/* =======================
+   SECTION HEADINGS
+======================= */
 
-    .button:hover {
-        background-color: #6e5638;
-        transform: translateY(-2px);
-    }
+h2 {
+    font-size: 15px;
+    color: #8b6f47;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #e3d9cf;
+    padding-bottom: 6px;
+    margin-top: 35px;
+}
 
-    footer {
-        text-align: center;
-        margin-top: 60px;
-        font-size: 12px;
-        color: #8a857f;
-    }
+/* =======================
+   CONTENT
+======================= */
 
-    /* FADE ANIMATION */
-    @keyframes fadeIn {
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
+.item {
+    margin-bottom: 18px;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+/* =======================
+   BUTTON
+======================= */
+
+.button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 18px;
+    background-color: #8b6f47;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6e5638;
+    transform: translateY(-2px);
+}
+
 </style>
 
 </head>
@@ -128,108 +141,86 @@
 
 <div class="container">
 
+<!-- HEADER -->
 <header>
     <h1>Nandipha Galada</h1>
+
+    <p class="tagline">
+        ICT Applications Development Student | Web Developer (Aspiring)
+    </p>
+
     <div class="contact">
-    📞 071 088 7644 | ✉️ 221225366@mycput.ac.za <br>
-    💻 <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a> |
-    🔗 <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank">LinkedIn</a>
-</div>
+        📞 071 088 7644 | ✉️ 221225366@mycput.ac.za <br><br>
+
+        💻 <a href="https://github.com/Nandipha03" target="_blank">GitHub Profile</a> |
+        🔗 <a href="https://www.linkedin.com/in/nandipha-galada-a85a6a25a/" target="_blank">LinkedIn Profile</a>
+    </div>
 </header>
 
-   <nav style="text-align:center; margin-bottom: 30px;">
-    <a href="index.html" style="margin: 0 10px; color:#8b6f47; text-decoration:none; font-weight:bold;">
-        CV
-    </a>
+<!-- NAVIGATION -->
+<nav class="nav">
+    <a href="index.html" class="nav-btn">CV</a>
+    <a href="reflection.html" class="nav-btn">Reflections</a>
+</nav>
 
-    <a href="reflection.html" style="margin: 0 10px; color:#8b6f47; text-decoration:none; font-weight:bold;">
-        Reflections
-    </a>
-</nav> 
+<!-- CAREER OBJECTIVE -->
+<h2>Career Objective</h2>
+<p>
+Motivated ICT student with strong problem-solving, communication, and teamwork skills, supported by experience in customer service. I am reliable, organized, and proactive, with a growing focus on web design and development.
+</p>
 
-<div class="section">
-    <h2>Career Objective</h2>
-    <p>
-        Motivated IT student with strong problem-solving, communication, and teamwork skills,
-        supported by experience in customer service. I am reliable, organized, and proactive,
-        with a growing focus on web design and development.
-    </p>
+<!-- EDUCATION -->
+<h2>Education</h2>
+
+<div class="item">
+    <b>National Senior Certificate</b><br>
+    Focus College, Wynberg, Cape Town | 2015 – 2020
 </div>
 
-<div class="section">
-    <h2>Education</h2>
-
-    <div class="item">
-        <div class="title">National Senior Certificate</div>
-        <div class="sub">Focus College, Wynberg, Cape Town | 2015 – 2020</div>
-    </div>
-
-    <div class="item">
-        <div class="title">Diploma in ICT: Applications Development</div>
-        <div class="sub">Cape Peninsula University of Technology (CPUT) | 2021 – Present</div>
-    </div>
+<div class="item">
+    <b>Diploma in ICT: Applications Development</b><br>
+    Cape Peninsula University of Technology (CPUT) | 2021 – Present
 </div>
 
-<div class="section">
-    <h2>Experience</h2>
+<!-- EXPERIENCE -->
+<h2>Experience</h2>
 
-    <div class="item">
-        <div class="title">Customer Service Agent</div>
-        <div class="sub">Teleperformance | Dec 2025 – Jan 2026</div>
-        <ul>
-            <li>Assisted customers via chat, email, and phone</li>
-            <li>Maintained professionalism and clear communication</li>
-            <li>Improved problem-solving and interpersonal skills</li>
-        </ul>
-    </div>
-
-    <div class="item">
-        <div class="title">Group Project: UniResApp</div>
-        <div class="sub">CPUT | Jan 2025 – Nov 2025</div>
-        <ul>
-            <li>Built a web-based residence application system</li>
-            <li>Contributed to development, testing, and improvements</li>
-            <li>Strengthened teamwork and technical communication</li>
-        </ul>
-    </div>
-</div>
-
-<div class="section">
-    <h2>Skills</h2>
+<div class="item">
+    <b>Customer Service Agent</b><br>
+    Teleperformance, Cape Town | Dec 2025 – Jan 2026
     <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>UI/UX Design Thinking</li>
-        <li>Business Analysis</li>
-        <li>Agile Methodologies</li>
-        <li>Communication & Teamwork</li>
-        <li>Problem-solving</li>
-        <li>Time Management</li>
+        <li>Assisted customers via live chat, email, and phone</li>
+        <li>Maintained professional communication and problem-solving support</li>
     </ul>
 </div>
 
-<div class="section">
-    <h2>References</h2>
-
-    <p><b>Nonkululeko Biyana</b><br>
-    Teleperformance<br>
-    066 204 9632 | nonkululeko.biyana@teleperformance.co.uk</p>
-
-    <p><b>Mthuthuzeli Mrubata</b><br>
-    Methodist Church of Good Hope<br>
-    075 145 9135 | mthumrubata@gmail.com</p>
+<div class="item">
+    <b>UniResApp Group Project</b><br>
+    Cape Peninsula University of Technology (CPUT) | Jan 2025 – Nov 2025
+    <ul>
+        <li>Developed a web-based residence application system</li>
+        <li>Contributed to coding, testing, and system improvements</li>
+        <li>Strengthened teamwork and technical communication skills</li>
+    </ul>
 </div>
 
-<div class="section" style="text-align:center;">
-    <h2>Mock Interview</h2>
+<!-- SKILLS -->
+<h2>Skills</h2>
+<ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>UI/UX Design Thinking</li>
+    <li>Business Analysis</li>
+    <li>Microsoft Word & PowerPoint</li>
+    <li>Communication & Teamwork</li>
+    <li>Problem Solving</li>
+</ul>
 
-    <a class="button" href="https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/view?usp=drive_link" target="_blank">
-        🎥 Have a Look
-    </a>
-</div>
+<!-- MOCK INTERVIEW -->
+<h2>Mock Interview</h2>
 
-<footer>
-    © 2026 Nandipha Galada | Designed with elegance & simplicity
-</footer>
+<a class="button" href="YOUR_GOOGLE_DRIVE_LINK" target="_blank">
+    🎥 Have a Look
+</a>
 
 </div>
 
