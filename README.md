@@ -64,6 +64,6 @@ This project helped me improve my understanding of front-end development, websit
 
 <div class="contact">
     📞 071 088 7644 | ✉️ 221225366@mycput.ac.za <br>
-    💻 <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a> |
-    🔗 <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank">LinkedIn</a>
+    💻 <a href=https://github.com/Nandipha03_blank">GitHub</a> |
+    🔗 <a href=https://www.linkedin.com/in/nandipha-galada-a85a6a25a/_blank">LinkedIn</a>
 </div>
