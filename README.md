@@ -96,7 +96,7 @@ a{
 <div>
     <div class="card">
         <h2>Career Objective</h2>
-        <p>Motivated IT student with strong problem-solving, communication, and teamwork skills. Seeking opportunities in web development and design while growing professionally.</p>
+        <p>Motivated IT student with strong problem-solving, communication, and teamwork skills, supported by experience in customer service. Reliable, organized and proactive. Seeking opportunities in web development and design while growing professionally.</p>
     </div>
 
     <div class="card">
