@@ -8,7 +8,7 @@ This project showcases my CV, skills, experience, and professional development a
 ## 🌐 Live Portfolio
 
 👉 Click here to view my website:  
-[https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://nandipha03.github.io/)
+(https://nandipha03.github.io/)
 
 ---
 
