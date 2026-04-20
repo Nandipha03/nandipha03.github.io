@@ -14,43 +14,50 @@
 
     /* ===== HEADER ===== */
     .header {
-        background: #7a5c3e;
-        color: white;
         text-align: center;
-        padding: 60px 20px 40px 20px;
+        padding: 60px 20px 30px 20px;
     }
 
-    .header h1 {
-        font-size: 52px;
-        margin: 0;
+    .leaf {
+        font-size: 18px;
+        color: #7a5c3e;
+        margin-bottom: 10px;
+    }
+
+    .name {
+        font-size: 54px;
         letter-spacing: 3px;
+        color: #7a5c3e;
+        margin: 0;
+        font-weight: normal;
     }
 
     .underline {
         width: 140px;
         height: 3px;
         background: #d6b48a;
-        margin: 10px auto 15px auto;
+        margin: 12px auto;
     }
 
     .contact {
         font-size: 14px;
+        margin-top: 10px;
+        line-height: 1.8;
     }
 
-    /* ===== MAIN WRAPPER ===== */
+    /* ===== CONTENT ===== */
     .container {
-        max-width: 900px;
+        max-width: 850px;
         margin: auto;
-        padding: 40px 25px;
+        padding: 20px 25px 60px 25px;
     }
 
-    /* ===== MAIN SECTIONS (FLOWING) ===== */
     .card {
         background: #fffaf5;
         padding: 22px;
         border-radius: 10px;
-        box-shadow: 0 3px 12px rgba(0,0,0,0.06);
-        margin-bottom: 22px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
     }
 
     h2 {
@@ -71,25 +78,22 @@
         padding-left: 18px;
     }
 
-    /* ===== SIDE STYLE BOXES (NOT GRID) ===== */
-    .side-box {
-        background: #f9f3ed;
-        border-left: 4px solid #7a5c3e;
-        padding: 18px;
-        border-radius: 8px;
-        margin-bottom: 22px;
+    /* ===== BUTTON STYLE ===== */
+    .btn {
+        display: inline-block;
+        background-color: #7a5c3e;
+        color: white;
+        padding: 12px 18px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 14px;
+        margin-top: 10px;
+        transition: 0.3s ease;
     }
 
-    iframe {
-        width: 100%;
-        height: 220px;
-        border: none;
-        border-radius: 8px;
-    }
-
-    /* subtle separation */
-    .section-title {
-        margin-top: 35px;
+    .btn:hover {
+        background-color: #5e452f;
+        transform: translateY(-2px);
     }
 
 </style>
@@ -99,19 +103,25 @@
 
 <!-- HEADER -->
 <div class="header">
-    <h1>NANDIPHA GALADA</h1>
+
+    <div class="leaf">🍃</div>
+
+    <h1 class="name">NANDIPHA GALADA</h1>
+
     <div class="underline"></div>
+
     <div class="contact">
-        📞 071 088 7644 | ✉️ 221225366@mycput.ac.za | 💻 GitHub | 🔗 LinkedIn
+        📞 071 088 7644<br>
+        ✉️ 221225366@mycput.ac.za<br>
+        💻 GitHub | 🔗 LinkedIn
     </div>
 </div>
 
 <!-- CONTENT -->
 <div class="container">
 
-    <!-- CAREER OBJECTIVE -->
     <div class="card">
-        <h2>🪶 CAREER OBJECTIVE</h2>
+        <h2>🪶 Career Objective</h2>
         <p>
             Motivated IT student with strong problem-solving, communication, and teamwork skills,
             supported by customer service experience. I am reliable, organized, and proactive with
@@ -119,9 +129,8 @@
         </p>
     </div>
 
-    <!-- EDUCATION -->
     <div class="card">
-        <h2>🎓 EDUCATION</h2>
+        <h2>🎓 Education</h2>
 
         <p><b>National Senior Certificate</b><br>
         Focus College, Wynberg, Cape Town<br>
@@ -132,15 +141,14 @@
         2021 – Present (3rd Year)</p>
     </div>
 
-    <!-- EXPERIENCE -->
     <div class="card">
-        <h2>💼 EXPERIENCE</h2>
+        <h2>💼 Experience</h2>
 
         <p><b>Customer Service Agent – Teleperformance</b><br>
         Dec 2025 – Jan 2026</p>
         <ul>
             <li>Assisted customers via chat, email, and phone</li>
-            <li>Maintained professional communication and support</li>
+            <li>Maintained professional communication</li>
         </ul>
 
         <p><b>UniResApp Project – CPUT</b><br>
@@ -152,21 +160,20 @@
         </ul>
     </div>
 
-    <!-- SIDE STYLE SECTION (NOT COLUMN GRID) -->
-    <div class="side-box">
-        <h2>🧠 SKILLS</h2>
+    <div class="card">
+        <h2>🧠 Skills</h2>
         <ul>
             <li>HTML, CSS, JavaScript</li>
-            <li>Web Design & Design Thinking</li>
-            <li>Agile Methodologies</li>
+            <li>Web Design</li>
             <li>Business Analysis</li>
+             <li>Agile Methodologies</li>
             <li>Communication</li>
             <li>Leadership & Teamwork</li>
         </ul>
     </div>
 
-    <div class="side-box">
-        <h2>📌 REFERENCES</h2>
+    <div class="card">
+        <h2>📌 References</h2>
 
         <p><b>Nonkululeko Biyana</b><br>
         Teleperformance<br>
@@ -177,9 +184,17 @@
         075 145 9135</p>
     </div>
 
-    <div class="side-box">
-        <h2>🎥 MOCK VIDEO</h2>
-        <iframe src="https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/preview"></iframe>
+    <!-- MOCK VIDEO BUTTON (INTEGRATED PROPERLY) -->
+    <div class="card">
+        <h2>🎥 Mock Interview</h2>
+
+        <p>Click below to view my mock interview presentation.</p>
+
+        <a class="btn"
+           href="https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/view?usp=drive_link"
+           target="_blank">
+           ▶ View Mock Interview
+        </a>
     </div>
 
 </div>
