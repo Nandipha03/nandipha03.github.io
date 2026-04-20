@@ -74,7 +74,7 @@ Methodist Church of Good Hope
 ---
 
 ### 🎥 Mock Interview
-Have a look below:
 
-<iframe width="560" height="315" src="YOUR_VIDEO_LINK" 
-title="Mock Interview" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1_c5Jb5xEPc0yFJUKy8T6w3678DoOFPua/preview" 
+width="560" height="315" allow="autoplay"></iframe>
+
