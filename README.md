@@ -158,6 +158,7 @@
         <ul>
             <li>HTML, CSS, JavaScript</li>
             <li>Web Design & Design Thinking</li>
+            <li>Agile Methodologies</li>
             <li>Business Analysis</li>
             <li>Communication</li>
             <li>Leadership & Teamwork</li>
