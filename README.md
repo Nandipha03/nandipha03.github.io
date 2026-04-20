@@ -123,13 +123,13 @@
     <div class="card">
         <h2>🎓 EDUCATION</h2>
 
-        <p><b>Diploma in ICT: Applications Development</b><br>
-        Cape Peninsula University of Technology (CPUT)<br>
-        2021 – Present (3rd Year)</p>
-
         <p><b>National Senior Certificate</b><br>
         Focus College, Wynberg, Cape Town<br>
         2015 – 2020</p>
+
+        <p><b>Diploma in ICT: Applications Development</b><br>
+        Cape Peninsula University of Technology (CPUT)<br>
+        2021 – Present (3rd Year)</p>
     </div>
 
     <!-- EXPERIENCE -->
